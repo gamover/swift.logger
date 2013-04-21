@@ -5,4 +5,4 @@
  * Time: 16:40
  */
 
-exports.Logger = require('./lib/logger').Logger;
+exports.LoggerManager = require('./lib/LoggerManager').LoggerManager;
