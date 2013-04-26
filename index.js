@@ -5,4 +5,9 @@
  * Time: 16:40
  */
 
-exports.LoggerManager = require('./lib/LoggerManager').LoggerManager;
+var LoggerManager = require('./lib/LoggerManager').LoggerManager;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+exports.LoggerManager = LoggerManager;
+exports.loggerManager = new LoggerManager();
