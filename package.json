@@ -2,12 +2,13 @@
     "author": "G@mOBEP <rusmiran@gmail.com>",
     "name": "swift.logger",
     "description": "logger",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "repository": {
         "type": "git",
         "url": "https://github.com/gamover/swift.logger.git#master"
     },
     "dependencies": {
+        "swift.errors": "*",
         "swift.utils": "*"
     },
     "devDependencies": {},
